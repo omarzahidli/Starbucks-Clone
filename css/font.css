@@ -1,0 +1,7 @@
+* {
+    font-family: sodo;
+}
+@font-face {
+    font-family: sodo;
+    src: url('../font/sodo-sans-3.otf');
+  }

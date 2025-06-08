@@ -1,0 +1,36 @@
+.active-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.active-nav::after {
+    content: '';
+    position: absolute;
+    top: calc(100% - 5px);
+    min-width: 100%;
+    min-height: 5px;
+    background-color: green;
+}
+
+.active-sec-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.active-sec-nav::after {
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    min-width: 100%;
+    min-height: 1px;
+    background-color: #000000DE;
+}
+
+
